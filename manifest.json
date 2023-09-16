@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Search Extension",
+  "version": "1.0.1",
+  "description": "Open LinkedIn Job Search and apply for first job",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "host_permissions":  [ "*://*/*" ]
+}
